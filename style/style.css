@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Hylia";
+  src: url("hyliafont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Rodin";
+  src: url("rodin.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body  {
+  color: #cccccc;
+  background-image: url("images/sheikahbackground.jpeg");
+  background-color: #2d2020;
+}
+
+h1 {
+  font-family: Hylia, "Times New Roman", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  font-size: 72pt;
+  line-height: 30%;
+  color: #cccccc;
+}
+
+h3 {
+  font-family: Hylia, "Times New Roman", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  color: #cccccc;
+}
+
+h4 {
+  font-family: Rodin, "Times New Roman", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  line-height: 30%;
+  color: #cccccc;
+  margin-bottom: 70px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+li {
+  display: inline-block;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
