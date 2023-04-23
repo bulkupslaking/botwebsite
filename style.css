@@ -2,4 +2,7 @@ body  {
   color: #cccccc;
   background-image: url("sheikahbackground.jpeg");
   background-color: #cccccc;
+  font-family: 'CustomFont', Arial, sans-serif;
+font-weight:normal;
+font-style:normal;
 }
