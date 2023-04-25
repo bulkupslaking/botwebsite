@@ -217,7 +217,7 @@ RECIPES = {
         "toughmeatandmushroomskewer": {
           "Recipe": [
             "Meat",
-            "Ironhroom"
+            "Ironshroom"
           ],
           "Name": "Tough Meat and Mushroom Skewer",
           "Effect": "Boosts defence."
