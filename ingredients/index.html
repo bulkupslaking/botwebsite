@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../style/style.css">
+    <title> ROTW </title>
+    <script src="ingredients.js" ></script>
+    <script src="index.js" ></script>
+  </head>
+  <body>
+    <ul>
+      <li>
+        <a href="../calculator/index.html">
+          <h5>Calculator</h5> 
+        </a>
+      </li>
+      <li>
+        <a href="../ingredients/index.html">
+          <h5>Ingredients</h5> 
+        </a>
+      </li>
+      <li>
+        <a href="../recipes/index.html">
+          <h5>Recipes</h5> 
+        </a>
+      </li>
+      <li>
+        <a href="../index.html">
+          <h5>Home</h5> 
+        </a>
+      </li>
+    </ul>
+
+    <div id="overlay" onClick="off(this)">
+      <div id="text">
+        <h1 id = "title"></h1>
+        <h5 id = "desc"></h5>
+      </div>
+    </div>
+
+    <div style="padding:20px">
+      <h5>Hearty Durian</h5>
+      <button onClick="on(this)" style="border:1px solid black; background-color: transparent;" ingredient="heartydurian">
+        <img src="../foodsprites/heartydurian.png" alt="Hearty Durian" border="0">
+      </button>
+    </div>
+  </body>
+</html>

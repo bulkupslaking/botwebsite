@@ -32,6 +32,8 @@ h3 {
   font-weight: normal;
   font-style: normal;
   text-align: center;
+  font-size: 36pt;
+  line-height: 0;
   color: #cccccc;
 }
 
@@ -45,27 +47,92 @@ h4 {
   margin-bottom: 70px;
 }
 
-a:link {
+h5 {
+  font-family: Rodin, "Times New Roman", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-align: justify;
+  color: #cccccc;
+  font-size: x-large;
   text-decoration: none;
 }
 
-a:visited {
+a.mainnav:link {
   text-decoration: none;
 }
 
-a:hover {
+a.mainnav:visited {
   text-decoration: none;
 }
 
-a:active {
+a.mainnav:hover {
+  text-decoration: none;
+}
+
+a.mainnav:active {
   text-decoration: none;
 }
 
 li {
   display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
   display: flex;
-  justify-content: center;
+  justify-content: center; 
+}
+
+img {
+  transform-origin: center;
+  animation: scale-back 300ms ease-in-out forwards;
+}
+
+img:hover {
+  transform-origin: center;
+  animation: scale-up 700ms ease-in-out forwards;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  font-family: Rodin, "Times New Roman", sans-serif;
+}
+
+@keyframes scale-up {
+  to {
+    transform: scale(1.02);
+  }
+}
+
+@keyframes scale-back {
+  from {
+    transform: scale(1.02);
+  }
+  to {
+    transform: scale(1);
+  }
 }

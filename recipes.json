@@ -1,0 +1,237 @@
+{
+    "simmeredfruit": {
+    "Recipe": ["Apple", "Wildberry"],
+    "Name": "Simmered Fruit"
+    },
+    "heartysimmeredfruit": {
+        "Recipe": ["Apple", "Wildberry", "Hearty Durian"],
+        "Name": "Simmered Fruit",
+        "Effect": "Restores and overfills heart container."
+    },
+    "fishandmushroomskewer": {
+        "Recipe": ["Hylian Shroom", "Hyrule Bass"],
+        "Name": "Fish and Mushroom Skewer"
+    },
+    "mightyfishandmushroomskewer": {
+        "Recipe": ["Razorshroom", "Hyrule Bass"],
+        "Name": "Mighty Fish and Mushroom Skewer",
+        "Effect": "Boosts attack."
+    },
+    "omelette": {
+        "Recipe": ["Bird Egg"],
+        "Name": "Omelette"
+    },
+    "creamyheartsoup": {
+        "Recipe": ["Hearty Radish", "Palm Fruit", "Milk"],
+        "Name": "Creamy Heart Soup",
+        "Effect": "Restores and overfills heart container."
+    },
+    "creamymeatsoup": {
+        "Recipe": ["Meat", "Milk", "Hyrule Herb"],
+        "Name": "Creamy Meat Soup"
+    },
+    "creamyseafoodsoup": {
+        "Recipe": ["Hyrule Bass", "Milk", "Hyrule Herb"],
+        "Name": "Creamy Seafood Soup"
+    },
+    "toughcreamyseafoodsoup": {
+        "Recipe": ["Armored Porgy", "Milk", "Hyrule Herb"],
+        "Name": "Tough Creamy Seafood Soup",
+        "Effect": "Boosts defence."
+    },
+    "fishskewer": {
+        "Recipe": ["Hyrule Bass"],
+        "Name": "Fish Skewer"
+    },
+    "heartyfishskewer": {
+        "Recipe": ["Hearty Salmon"],
+        "Name": "Hearty Fish Skewer",
+        "Effect": "Restores and overfills heart container."
+    },
+    "fragrantmushroomsaute": {
+        "Recipe": ["Hylian Shroom", "Goron Spice"],
+        "Name": "Fragrant Mushroom Saute"
+    },
+    "friedbananas": {
+        "Recipe": ["Mighty Bananas", "Cane Sugar", "Tabantha Wheat"],
+        "Name": "Fried Bananas",
+        "Effect": "Boosts attack."
+    },
+    "heartyfriedwildgreens": {
+        "Recipe": ["Hyrule Herb", "Hearty Radish"],
+        "Name": "Hearty Fried Wild Greens",
+        "Effect": "Restores and overfills heart container."
+    },
+    "fruitandmushroommix": {
+        "Recipe": ["Hylian Shroom", "Apple", "Wildberry"],
+        "Name": "Fruit and Mushroom Mix"
+    },
+    "enduringfruitandmushroommix": {
+        "Recipe": ["Endura Shroom", "Apple", "Wildberry"],
+        "Name": "Enduring Fruit and Mushroom Mix",
+        "Effect":"Restores and overfills stamina wheel."
+    },
+    "fruitcake": {
+        "Recipe": ["Wildberry", "Apple", "Cane Sugar", "Tabantha Wheat"],
+        "Name": "Fruitcake"
+    },
+    "glazedfish": {
+        "Recipe": ["Hyrule Bass", "Courser Bee Honey"],
+        "Name": "Glazed Fish",
+        "Effect": "Restores some stamina."
+    },
+    "glazedmeat": {
+        "Recipe": ["Meat", "Courser Bee Honey"],
+        "Name": "Glazed Meat",
+        "Effect": "Restores some stamina."
+    },
+    "glazedmushrooms": {
+        "Recipe": ["Hylian Shroom", "Courser Bee Honey"],
+        "Name": "Glazed Mushrooms",
+        "Effect": "Restores some stamina."
+    },
+    "glazedvegetables": {
+        "Recipe": ["Hyrule Herb", "Courser Bee Honey"],
+        "Name": "Glazed Veggies",
+        "Effect": "Restores some stamina."
+    },
+    "herbsaute": {
+        "Recipe": ["Hyrule Herb", "Goron Spice"],
+        "Name": "Herb Saute"
+    },
+    "honeycandy": {
+        "Recipe": ["Courser Bee Honey"],
+        "Name": "Honey Candy",
+        "Effect": "Restores some stamina."
+    },
+    "honeycrepe": {
+        "Recipe": ["Courser Bee Honey", "Cane Sugar", "Milk", "Bird Egg", "Tabantha Wheat"],
+        "Name": "Honey Crepe",
+        "Effect": "Restores some stamina."
+    },
+    "honeyedapple": {
+        "Recipe": ["Courser Bee Honey", "Apple"],
+        "Name": "Honeyed Apple",
+        "Effect": "Restores some stamina."
+    },
+    "honeyedfruit": {
+        "Recipe": ["Courser Bee Honey", "Apple", "Wildberry"],
+        "Name": "Boiled Egg",
+        "Effect": "Restores some stamina."
+    },
+    "meatandmushroomskewer": {
+        "Recipe": ["Meat", "Hylian Shroom"],
+        "Name": "Meat and Mushroom Skewer"
+    },
+    "toughmeatandmushroomskewer": {
+        "Recipe": ["Meat", "Ironhroom"],
+        "Name": "Tough Meat and Mushroom Skewer",
+        "Effect": "Boosts defence."
+    },
+    "meatandseafoodfry": {
+        "Recipe": ["Meat", "Poultry", "Hyrule Bass"],
+        "Name": "Meat and Seafood Fry"
+    },
+    "meatskewer": {
+        "Recipe": ["Meat"],
+        "Name": "Meat Skewer"
+    },
+    "meatstuffedpumpkins": {
+        "Recipe": ["Meat", "Fortified Pumpkin"],
+        "Name": "Meat Stuffed Pumpkins",
+        "Effect": "Boosts defence."
+    },
+    "mushroomomelette": {
+        "Recipe": ["Bird Egg", "Hylian Shroom"],
+        "Name": "Mushroom Omelette"
+    },
+    "mightymushroomomelette": {
+        "Recipe": ["Bird Egg", "Razorshroom"],
+        "Name": "Mighty Mushroom Omelette",
+        "Effect": "Boosts attack."
+    },
+    "mushroomskewer": {
+        "Recipe": ["Hylian Shroom"],
+        "Name": "Mushroom Skewer"
+    },
+    "plaincrepe": {
+        "Recipe": ["Tabantha Wheat", "Milk", "Bird Egg", "Cane Sugar"],
+        "Name": "Plain Crepe"
+    },
+    "mightyporgymeuniere": {
+        "Recipe": ["Mighty Porgy", "Tabantha Wheat"],
+        "Name": "Mighty Porgy Meuniere",
+        "Effect": "Boosts attack."
+    },
+    "toughporgymeuniere": {
+        "Recipe": ["Armored Porgy", "Tabantha Wheat"],
+        "Name": "Tough Porgy Meuniere",
+        "Effect": "Boosts defence."
+    },
+    "salmonmeuniere": {
+        "Recipe": ["Hearty Salmon", "Tabantha Wheat"],
+        "Name": "Salmon Meuniere",
+        "Effect": "Restores and overfills heart container."
+    },
+    "sauteednuts": {
+        "Recipe": ["Acorn", "Chickaloo Nut"],
+        "Name": "Sauteed Nuts"
+    },
+    "sauteedpeppers": {
+        "Recipe": ["Spicy Pepper"],
+        "Name": "Sauteed Peppers",
+        "Effect":"Boosts cold resistance."
+    },
+    "seafoodmeuniere": {
+        "Recipe": ["Hyrule Bass", "Tabantha Wheat"],
+        "Name": "Seafood Meuniere"
+    },
+    "sneakyseafoodskewer": {
+        "Recipe": ["Sneaky River Snail"],
+        "Name": "Seafood Skewer",
+        "Effect": "Boosts steath."
+    },
+    "spicedmeatskewer": {
+        "Recipe": ["Meat", "Goron Spice"],
+        "Name": "Spiced Meat Skewer"
+    },
+    "spicymeatandseafoodfry": {
+        "Recipe": ["Spicy Pepper", "Meat", "Hyrule Bass"],
+        "Name": "Spicy Meat and Seafood Fry",
+        "Effect":"Boosts cold resistance."
+    },
+    "spicypepperedseafood": {
+        "Recipe": ["Spicy Pepper", "Hyrule Bass"],
+        "Name": "Spicy Peppered Fish",
+        "Effect":"Boosts cold resistance."
+    },
+    "steamedfish": {
+        "Recipe": ["Hyrule Bass", "Hyrule Herb"],
+        "Name": "Steamed Fish"
+    },
+    "steamedfruit": {
+        "Recipe": ["Apple", "Hyrule Herb", "Palm Fruit"],
+        "Name": "Steamed Fruit"
+    },
+    "steamedmeat": {
+        "Recipe": ["Meat", "Hyrule Herb"],
+        "Name": "Steamed Meat"
+    },
+    "steamedmushrooms": {
+        "Recipe": ["Hylian Shroom", "Hyrule Herb"],
+        "Name": "Steamed Mushrooms"
+    },
+    "vegetableomelette": {
+        "Recipe": ["Bird Egg", "Swift Carrot", "Hearty Radish"],
+        "Name": "Vegetable Omelette"
+    },
+    "warmmilk": {
+        "Recipe": ["Milk"],
+        "Name": "Warm Milk"
+    },
+    "wildberrycrepe": {
+        "Recipe": ["Wildberry", "Tabantha Wheat", "Bird Egg", "Milk", "Cane Sugar"],
+        "Name": "Wildberry Crepe"
+    }
+    
+}
