@@ -3,6 +3,8 @@
   <head>
     <link rel="stylesheet" href="../style/style.css">
     <title> ROTW </title>
+    <script src="recipes.js" ></script>
+    <script src="index.js" defer></script>
   </head>
   <body>
     <ul class="main">
@@ -28,10 +30,17 @@
   </li>
    </ul>
 
-
-
-    <div id="foodlist">
-      <h5>loading...</h5>
+   <div id="overlay" onClick="off(this)">
+    <div id="text">
+      <h1 style = "line-height: 100%;" id = "title"></h1>
+      <h5 style = "text-align: center; line-height: 10%;" id = "desc"></h5>
+      <h5 style = "text-align: center; line-height: 10%;" id = "rec"></h5>
     </div>
+  </div>
+
+  <ul id="recipelist" class = "recipe">
+  </ul>
+
+
   </body>
 </html>

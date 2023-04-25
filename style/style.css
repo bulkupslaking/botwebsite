@@ -66,6 +66,7 @@ h6 {
   color: #cccccc;
   line-height: 30%;
   font-size: x-large;
+  white-space: normal;
   text-decoration: none;
 }
 
