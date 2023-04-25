@@ -4,10 +4,10 @@
     <link rel="stylesheet" href="../style/style.css">
     <title> ROTW </title>
     <script src="ingredients.js" ></script>
-    <script src="index.js" ></script>
+    <script src="index.js" defer></script>
   </head>
   <body>
-    <ul>
+    <ul class = "main">
       <li>
         <a href="../calculator/index.html">
           <h5>Calculator</h5> 
@@ -37,11 +37,7 @@
       </div>
     </div>
 
-    <div style="padding:20px">
-      <h5>Hearty Durian</h5>
-      <button onClick="on(this)" style="border:1px solid black; background-color: transparent;" ingredient="heartydurian">
-        <img src="../foodsprites/heartydurian.png" alt="Hearty Durian" border="0">
-      </button>
-    </div>
+    <ul id="ingrelist" class = "ingredient">
+    </ul>
   </body>
 </html>

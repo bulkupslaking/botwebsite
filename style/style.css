@@ -57,6 +57,18 @@ h5 {
   text-decoration: none;
 }
 
+h6 {
+  display: none;
+  font-family: Hylia, "Times New Roman", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  color: #cccccc;
+  line-height: 30%;
+  font-size: x-large;
+  text-decoration: none;
+}
+
 a.mainnav:link {
   text-decoration: none;
 }
@@ -79,7 +91,7 @@ li {
   margin-right: 20px;
 }
 
-ul {
+ul.main {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -120,6 +132,24 @@ img:hover {
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
   font-family: Rodin, "Times New Roman", sans-serif;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+ul.ingredient {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li.ingredient {
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 @keyframes scale-up {
