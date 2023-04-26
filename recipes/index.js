@@ -6,8 +6,7 @@ var textnode;
 
 for (var pees of Object.keys(RECIPES)) {
 
-    text = template.replace("FULLNAME", RECIPES[pees]["Name"]).replace("RECIPID", pees);
-    text = text.replace("FULLNAME", RECIPES[pees]["Name"]).replace("RECIPID", pees);
+    text = template.replaceAll("FULLNAME", RECIPES[pees]["Name"]).replaceAll("RECIPID", pees);
 
     node = document.createElement("li");
     node.setAttribute("id", pees);

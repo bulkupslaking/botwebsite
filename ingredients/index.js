@@ -5,9 +5,10 @@ var textnode;
 
 for (var greed of Object.keys(INGREDIENTS)) {
 
-    text = template.replace("FULLNAME", INGREDIENTS[greed]["Name"]).replace("INGREID", greed);
-    text = text.replace("FULLNAME", INGREDIENTS[greed]["Name"]).replace("INGREID", greed);
+    //replace template w ingredient
+    text = template.replaceAll("FULLNAME", INGREDIENTS[greed]["Name"]).replaceAll("INGREID", greed);
 
+    //add ingredient to ul
     node = document.createElement("li");
     node.setAttribute("id", greed);
     node.setAttribute("class", "ingredient");
